@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "Arduino")(type "Legacy")(uri "${KIPRJMOD}/library/Arduino.lib")(options "")(descr ""))
+  (lib (name "rp2040-zero")(type "Legacy")(uri "${KIPRJMOD}/library/rp2040-zero.lib")(options "")(descr ""))
+)

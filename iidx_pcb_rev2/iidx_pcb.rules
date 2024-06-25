@@ -1,0 +1,80 @@
+
+(rules PCB iidx_pcb
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 4)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.2)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.8)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.0)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd-smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    5V GND 3V3 SEL CLK CMD DAT ACK
+    "SCR_TRCA" "SCR_LEDA" "SCR_TRCB" "SCR_LEDB" "unconnected-(J3-Pad1)" "KEY_7" "KEY_6" "KEY_3"
+    "KEY_4" "KEY_5" "KEY_1" "KEY_STA" "KEY_SEL" "KEY_2" "unconnected-(J3-Pad12)" "Net-(Q1-Pad3)"
+    "Net-(R14-Pad1)" "unconnected-(U2-Pad0)" "unconnected-(U2-Pad1)" "unconnected-(U2-Pad29)" "unconnected-(U2-Pad28)" "unconnected-(U2-Pad27)" "unconnected-(U2-Pad26)" "unconnected-(U2-Pad15)"
+    "SCR_UP" "SCR_DOWN" "unconnected-(U3-Pad1)" "unconnected-(U3-Pad2)" "unconnected-(U3-Pad3)" "unconnected-(U3-Pad22)" "unconnected-(U3-Pad24)"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
