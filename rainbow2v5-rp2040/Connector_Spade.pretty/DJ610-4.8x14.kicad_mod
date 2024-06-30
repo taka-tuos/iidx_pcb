@@ -1,0 +1,240 @@
+(footprint "DJ610-4.8x14"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9f78b121-9fa0-45c9-bf95-5010ad15e947")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DJ610-4.8x14"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "091b8769-17cf-4c1d-b2ea-58b80a32bbb9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "DJ610-4.8x14"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "882a741e-5ad5-44f5-8ed0-a514ab219d28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e6f86d4-a568-4574-bdd5-b52d5764fab9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "087bc797-ea48-4b3d-a380-cfe884d29187")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.3 -1.8)
+		(end -1.3 -1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "a3cedc77-aa6f-4628-a1ec-b4473f4a8ac9")
+	)
+	(fp_line
+		(start -1.3 -1.8)
+		(end -0.7 -1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "08ea6a61-f990-430c-8386-e5173636527a")
+	)
+	(fp_line
+		(start -1.3 2.6)
+		(end -1.3 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "22a39bcc-c332-43bb-9812-1d3d168d0705")
+	)
+	(fp_line
+		(start -1.3 2.6)
+		(end -1.3 3.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "945fe4fe-4d2b-49a6-8d1c-022f47f96109")
+	)
+	(fp_line
+		(start -1.3 7)
+		(end -1.3 6.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "7c9ed037-d627-4b09-bff5-d698a0afbcc2")
+	)
+	(fp_line
+		(start -1.3 7)
+		(end -0.7 7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "b8fb7b82-5a8b-4f00-a41e-93bf43965e33")
+	)
+	(fp_line
+		(start 1.3 -1.8)
+		(end 0.7 -1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "17cd2295-3bfa-4d7e-96ce-19150729f669")
+	)
+	(fp_line
+		(start 1.3 -1.8)
+		(end 1.3 -1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "7d3cbb0d-3e4c-4d9f-bf6f-ffb22b02a0d8")
+	)
+	(fp_line
+		(start 1.3 2.6)
+		(end 1.3 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "8fac96bd-7a9a-4c3b-89d0-1d8568ec686d")
+	)
+	(fp_line
+		(start 1.3 2.6)
+		(end 1.3 3.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "ac1c544c-2d0a-4c2c-a815-2c1c1d50c466")
+	)
+	(fp_line
+		(start 1.3 7)
+		(end 0.7 7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "f55d8db4-b8b6-4366-bfe3-1e30474e0448")
+	)
+	(fp_line
+		(start 1.3 7)
+		(end 1.3 6.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "f6d01d02-74c0-4eaa-88c6-165acacfb309")
+	)
+	(fp_rect
+		(start -1.3 -1.8)
+		(end 1.3 7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0d44b071-e827-4a72-8734-1aae78c750e3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f1238d65-1bc9-4f70-808c-a1d25590cedd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 2 3)
+		(drill oval 1 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f8285068-635c-4cce-b1d5-819ea832ddbc")
+	)
+	(pad "1" thru_hole oval
+		(at 0 5.2)
+		(size 2 3)
+		(drill oval 1 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "97c6a050-3970-42f7-80fb-7ee92f2712e9")
+	)
+	(model "${KIPRJMOD}/Connector_Spade.pretty/dj610-4.8-14.wrl"
+		(offset
+			(xyz 0 -2.6 -5)
+		)
+		(scale
+			(xyz 0.38 0.38 0.38)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)
