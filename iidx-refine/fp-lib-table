@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "iidx-refine")(type "KiCad")(uri "${KIPRJMOD}/iidx-refine.pretty")(options "")(descr ""))
+  (lib (name "keyswitches")(type "KiCad")(uri "${KIPRJMOD}/keyswitches.pretty")(options "")(descr ""))
+)
