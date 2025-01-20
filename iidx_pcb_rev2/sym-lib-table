@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name "Arduino")(type "Legacy")(uri "${KIPRJMOD}/library/Arduino.lib")(options "")(descr ""))
-  (lib (name "rp2040-zero")(type "Legacy")(uri "${KIPRJMOD}/library/rp2040-zero.lib")(options "")(descr ""))
+  (version 7)
+  (lib (name "mcu")(type "KiCad")(uri "${KIPRJMOD}/mcu.kicad_sym")(options "")(descr ""))
 )

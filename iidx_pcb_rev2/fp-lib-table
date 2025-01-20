@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name "Arduino")(type "KiCad")(uri "${KIPRJMOD}/Arduino.pretty")(options "")(descr ""))
-  (lib (name "rp2040")(type "KiCad")(uri "${KIPRJMOD}/rp2040.pretty")(options "")(descr ""))
+  (version 7)
+  (lib (name "mcu")(type "KiCad")(uri "${KIPRJMOD}/mcu.pretty")(options "")(descr ""))
 )
